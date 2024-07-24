@@ -1,6 +1,3 @@
-*:not(nav):not(img) {
-    left: 8rem;
-}
 
 body {
     margin: 0;
@@ -95,7 +92,6 @@ main .principal h1{
     position: absolute;
     bottom: 12rem;
     color: white;
-    left: 8rem;
     font-size: 3.9rem;
     font-weight: 900;
 }
@@ -173,12 +169,20 @@ aside .image-container {
 h1 {
     font-size: 1.6rem;
     margin-top: 3rem;
-    margin-left: 9rem;
+    margin-left: 8rem;
     color: rgba(63, 63, 63, 0.877);
     cursor: pointer;
 }
 
-h1:hover {
+aside h1 {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    color: rgba(63, 63, 63, 0.877);
+    cursor: pointer;
+}
+
+aside h1:hover {
     text-decoration: underline 3px;
 }
 
@@ -243,37 +247,47 @@ aside .text p {
     font-weight: 400;
     color: #5c5c5c; /* Cor similar à do exemplo */
     margin: 0; /* Remover margem padrão */
+    margin-bottom: 7rem;
+}
+
+.outdiv {
+    margin-left: 3rem;
 }
 
 .OpenContainer {
     display: flex;
-    justify-content: space-between;
+    margin-top: 10rem;
+    width: 75rem;
+    height: 20rem;
     align-items: center;
     background-color: #212121;
     color: white;
-    padding: 20px;
     border-radius: 10px;
     margin: 20px;
 }
 
 .opensource {
     max-width: 60%;
+    margin-left: 10rem;
 }
 
 .opensource h1 {
-    font-size: 2rem;
+    width: 78rem;
+    font-size: 4.39rem;
+    font-weight: bold;
     margin: 0 0 10px 0;
-    color: #00c3a9; /* Cor verde similar à da imagem */
+    color: #00ffdd; 
 }
 
 .opensource p {
+    font-weight: 600;
     margin: 10px 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
 .opensource a {
-    color: #00c3a9; /* Cor verde similar à da imagem */
+    color: #00c3a9;
     text-decoration: none;
     font-weight: bold;
 }
@@ -284,6 +298,37 @@ aside .text p {
 
 .OpenContainer img {
     max-width: 30%;
+    width: 10rem;
     height: auto;
     margin-left: 20px;
+}
+
+.other .opensource a {
+    color: #000dc3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.other .OpenContainer {
+    display: flex;
+    margin-top: 10rem;
+    width: 75rem;
+    height: 20rem;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(97, 97, 97);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.images {
+    display: flex;
+    width: 70rem;
+}
+
+.images img {
+    height: 80px;
+    width: 180px;
+    margin-right: 100px;
 }
